@@ -1,0 +1,16 @@
+sort1 uses: bubble sort
+
+
+How do you know?: because is a little bit faster than sort 3
+
+
+sort2 uses: merge sort
+
+
+How do you know?: because it`s the fast program
+
+
+sort3 uses: selection sort
+
+
+How do you know?: because is the slower sorter
