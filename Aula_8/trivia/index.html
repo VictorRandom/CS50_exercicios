@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+
+        <script>
+
+            // TODO: Add code to check answers to questions
+
+            let name = document.querySelector('#mensagem')
+
+            function respostaIncorreta(_this) {
+                _this.style.backgroundColor = "red";
+                document.querySelector('#mensagem').innerHTML= "Resposta Errada"
+            }
+
+            function respostaCorreta(_this) {
+                _this.style.backgroundColor = "green";
+                document.querySelector('#mensagem').innerHTML= "Resposta Certa"
+            }
+
+
+            function resposta(_this) {
+                let input = document.querySelector('input')
+                if (input.value == 'Pelé'){
+                    input.style.backgroundColor = "green"
+                    document.querySelector('#msg').innerHTML= "Resposta Certa"
+                } else {
+                    input.style.backgroundColor = "red"
+                    document.querySelector('#msg').innerHTML= "Resposta Errada"
+                }
+            }
+
+
+        </script>
+
+    </head>
+    <body>
+
+        <div class="jumbotron">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+
+                <!-- TODO: Add multiple choice question here -->
+                <h3>
+                    Quantas copas do mundo o Brasil venceu ?
+                </h3>
+
+                <button onclick="respostaCorreta(this)" type="submit" class="stylebutton">A - 5 copas do mundo</button>
+                <button onclick="respostaIncorreta(this)" type="submit" class="stylebutton">B - 4 copas do mundo </button>
+                <button onclick="respostaIncorreta(this)" type="submit" class="stylebutton">C - 2 copas do mundo </button>
+                <button onclick="respostaIncorreta(this)" type="submit" class="stylebutton">D - Nenhuma copas do mundo </button>
+
+                <p id="mensagem"></p>
+
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+
+                <!-- TODO: Add free response question here -->
+
+                <h3>
+                    Qual o maior artilheiro da historia da seleção brasileira ?
+                </h3>
+
+                <input id='resposta' type='text'> </input>
+                <button onclick="resposta(this)" type="submit" class="checar">Checar</button>
+
+                <p id="msg"></p>
+
+            </div>
+
+        </div>
+    </body>
+</html>
