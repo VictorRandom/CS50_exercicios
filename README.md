@@ -78,4 +78,7 @@ Professor [David Malan](http://cs.harvard.edu/malan/)
 
 -[Aula_9](/Aula_9):
    * [birthdays](/Aula_9/lab9)
-   * [finance](/Aula_9/finance) 
+   * [finance](/Aula_9/finance)
+   
+## Certificado
+  <img src = "https://certificates.cs50.io/0a983292-fa3e-4fa8-99c2-592035280828.png?size=A4">
