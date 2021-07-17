@@ -5,6 +5,20 @@
 
 # CS50 - HAVARD UNIVERSITY
 
+Professor [David Malan](http://cs.harvard.edu/malan/)
+
+## Sobre o Curso
+É um curso introdutorio para programação e ciências de computação dado na Universidade de Havard pelo professor David J. Malan. (https://www.edx.org/course/cs50s-introduction-to-computer-science)
+
+## Tecnologias ensinadas
+- C
+- Python
+- JavaScript
+- CSS
+- HTML
+- SQL
+- Flask
+
 ## Aulas:
 - Aula 0: Rascunho
 - Aula 1: C
