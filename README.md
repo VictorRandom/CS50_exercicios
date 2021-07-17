@@ -43,7 +43,6 @@
 
 ### Database:
 - The only datebase used in this website was from IBGE, to search the states in Brazil, and after choosing the state, to appear all the cities from this state.
--
 
 
 ### How to launch application:
