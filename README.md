@@ -3,15 +3,15 @@
 </h1>
 
 
-#FINAL PROJECT CS50
+# FINAL PROJECT CS50
 
-##PROJECT - ECOLETA Website
+## PROJECT - ECOLETA Website
 ##Video demo: <https://youtu.be/DIjejkV-KD8>
 
-###Description:
+### Description:
 - This is a project created to connect regular people to recicly companies in order to colect lamps, batteries, paper, eletronics, organic or kitchen oil, and make the correct destination for each one.
 
-###Technologies used:
+### Technologies used:
 - JavaScript
 - HTML
 - CSS
@@ -19,7 +19,7 @@
 - React
 
 
-###How the website works:
+### How the website works:
 - For a company:
 1- They can register a colect point on the top right
 2- Put your company name
@@ -42,12 +42,12 @@
 3- After clicking put your city name
 4- There will be the register points to collect your item with all the information, address, which items they colect
 
-###Database:
+### Database:
 - The only datebase used in this website was from IBGE, to search the states in Brazil, and after choosing the state, to appear all the cities from this state.
 -
 
 
-###How to launch application:
+### How to launch application:
 - Download the files of the app
 - Instal npm on the terminal using the command "npm install"
 - Use the command "npm start"
@@ -55,7 +55,7 @@
 - And there will be your website
 
 
-###Possible improvements
+### Possible improvements
 - An importante improvement is to find a host for the website works for real, until then, it will just work in local.
 - Another improvement to think about is to create a HTML with the list of all the collect points, in order to help people who in them city doesn't have any collect point, so they can research the nearst one.
 - Can be improved too, a way to delete a collect point, maybe register companies make login to change collect points or to delete an old collect point.
