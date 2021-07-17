@@ -6,7 +6,6 @@
 # FINAL PROJECT CS50
 
 ## PROJECT - ECOLETA Website
-##Video demo: <https://youtu.be/DIjejkV-KD8>
 
 ### Description:
 - This is a project created to connect regular people to recicly companies in order to colect lamps, batteries, paper, eletronics, organic or kitchen oil, and make the correct destination for each one.
